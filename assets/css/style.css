@@ -1,0 +1,293 @@
+
+a{
+    text-decoration: none;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Lato;
+}
+li{
+    list-style: none;
+}
+
+/* Header */
+
+.header__hink{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 150%;
+}
+.header{
+    padding: 17px 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__wrap{
+    max-width: 1400px;
+    margin: 0 auto;
+
+
+}
+.header__menu{
+    display: flex;
+}
+.header__item{
+    margin-right: 70px;
+}
+.btn{
+    color: white;
+    background-color: #01996D;
+    border: 0px;
+    border-radius: 4px;
+    padding: 13px 50px;
+}
+.header__btn-white{
+    background-color: white;
+    color: black;
+}
+/* Main */
+.main{
+    padding: 170px;
+    background: url(../img/BG.png) no-repeat center center / cover;
+    height: 90vh;
+}
+.main__info{
+    max-width: 440px;
+    display: flex;
+    flex-direction: column;
+}
+.main__title{
+    color: #01996D;
+    font-size: 65px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.main__text{
+    color: #484848;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 55px;
+}
+.main__btn{
+    color: white;
+}
+
+/* steps */
+
+.video{
+    
+    margin: 0 auto;
+    padding: 169px 0 255px 0;
+    max-width: 1400px;
+}
+.video__main{
+    color: #424242;
+    font-weight: 700;
+    font-style: 24px;
+}
+.video__title{
+    
+    color: #01996D;
+    font-weight: 900;
+    font-size: 50px;
+    max-width: 584px;
+}
+.video__text{
+    
+    color: #424242;
+    font-style: 20px;
+    font-weight: 500px;
+    max-width: 900px;
+    margin-bottom: 60px;
+}
+.video__block{
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 190px;
+}
+.video__card-title{
+    
+    color: #000;
+    font-weight: 900;
+    font-style: 30px;
+    margin-bottom: 55px;
+}
+.video__card{
+    max-width: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video__row{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.video__img{
+    border-radius: 12px ;
+}
+.nop{
+    padding: 0px 250px;
+}
+
+/* Move */
+
+.vomen{
+    background-color: #245852;
+    height: 922px;
+}
+
+
+.vomen__bottom{
+    color: white;
+    background-color: #01996D;
+    border: 0px;
+    border-radius: 4px;
+    padding: 20px 60px;
+}
+
+.vomen__title{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    max-width: 580px;
+}
+
+.vomen__smoll{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 33px;
+}
+
+.vomen__image{
+    width: 895.84px;
+    height: 516.11px; 
+    margin-left: 33px;
+}
+
+.conteiner__vomen{
+    display: flex;
+}
+
+.all__vomen{
+    display: flex;
+    margin-left: 207px;
+    margin-top: 229px;
+    align-items: center;
+}
+
+.di{
+    margin-top: 57px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* profile */
+
+.card{
+    max-width: 2000px;
+    height: 100vh;
+}
+
+
+.profile__img{
+    position: relative;
+}
+
+.profile__btn{
+    width: 227px;
+    height: 65px;
+    top: 3977px;
+    left: 1061px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+}
+
+.asd{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.mintitleasd{
+    font-size: 50px;
+    font-weight: 700;
+    color: #01996D;
+    max-width: 584px; 
+    line-height: 78px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.ptextasd{
+    font-size: 20px;
+    font-weight: 400;
+    color: #484848;
+    margin-bottom: 40px;
+}
+
+.profile__info{
+    padding-bottom: 140px;
+    padding-right: 275px;
+    margin-left: 86px;
+}
+
+.image{
+    padding: 0 0 0 0 100px;
+}
+
+.image2{
+    width: 630;
+    height: 570;
+    left: 100px;
+}
+
+.image1{
+    position: absolute;
+    width: 293px;
+    height: 296px;
+    top: 500px;
+    left: -80px;
+}
+
+.profile__box{
+    display: flex;
+    padding-top: 120px;
+    padding-left: 275px;
+}
+
+/* end */
+
+.end{
+    background-color:#245852;
+    height: 654px;
+}
+
+.alivio{
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 54.64px;
+    text-align: left;
+    color: #fff;
+    padding-bottom: 60px;
+    padding-top: 95px;
+    padding-left: 275px;
+}
+
+.textt{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: #fff;
+    padding-bottom: 60px;
+    padding-left: 275px;
+}
